@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container_contenido {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.text_xv h2,
+.nombre h1 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+        to bottom right,
+        rgb(185, 125, 53) 0%,
+        rgb(240, 223, 158) 50%
+      )
+      bottom right / 50% 50% no-repeat,
+    linear-gradient(
+        to bottom left,
+        rgb(185, 125, 53) 0%,
+        rgb(240, 223, 158) 50%
+      )
+      bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, rgb(185, 125, 53) 0%, rgb(240, 223, 158) 50%)
+      top left / 50% 50% no-repeat,
+    linear-gradient(to top right, rgb(185, 125, 53) 0%, rgb(240, 223, 158) 50%)
+      top right / 50% 50% no-repeat;
+  background-clip: text;
+  color: transparent;
+}
+
+.text_xv h2 {
+  font-size: 32px;
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nombre h1 {
+  font-family: "Miama", cursive;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+/* Botón flotante con degradado dorado translúcido */
+.buton_next {
+  margin-top: -13px;
+}
+
+.buton_next .p-button {
+  background: linear-gradient(
+    135deg,
+    rgba(185, 125, 53, 0.39),
+    /* dorado oscuro con transparencia */ rgba(240, 224, 158, 0.356)
+      /* dorado claro con transparencia */
+  ) !important;
+  border: 1px solid rgba(185, 125, 53, 0.8) !important;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: none;
+  backdrop-filter: blur(6px); /* efecto glass */
+  animation: pulseGold 2s infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto pulsante dorado */
+@keyframes pulseGold {
+  0% {
+    box-shadow: 0 0 0 0 rgba(240, 223, 158, 0.6),
+      0 0 10px rgba(240, 223, 158, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(240, 223, 158, 0),
+      0 0 25px rgba(185, 125, 53, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(240, 223, 158, 0), 0 0 5px rgba(185, 125, 53, 0.1);
+  }
+}
+
+/* efecto al hacer click */
+.buton_next .p-button:active {
+  transform: scale(0.9);
+}

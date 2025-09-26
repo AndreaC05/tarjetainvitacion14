@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'Miama';
+  src: url('assets/fonts/miama/Miama.ttf') format('truetype');
+  /* font-weight: 900; */
+  font-style: normal;
+}
