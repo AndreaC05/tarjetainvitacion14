@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.nombre {
+  margin-bottom: -70px;
+}
+
 .text_xv h2,
 .nombre h1 {
   -webkit-background-clip: text !important;
