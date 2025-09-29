@@ -62,10 +62,10 @@ export default function Contenido2() {
               </p>
             </div>
           </div>
-          <div className="padrinos">
+          {/* <div className="padrinos">
             <p>Con el cariño y el apoyo de mis padrinos:</p>
             <p>Luis Rodríguez y Ana María López</p>
-          </div>
+          </div> */}
           <div className="buton_next">
             <Button label="Next" onClick={() => setCurrentSection(1)} />
           </div>

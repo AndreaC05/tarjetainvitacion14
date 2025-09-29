@@ -158,12 +158,12 @@
   }
 }
 
-.padrinos {
+/* .padrinos {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 300px;
   text-align: center;
-}
+} */
 
 .padrinos p:nth-child(1) {
   font-family: "Miama", cursive;
@@ -221,7 +221,7 @@
 }
 
 .buton_next {
-  margin-top: 25px;
+  margin-top: 60px;
 }
 
 /* Animaciones de entrada/salida secuenciales */
@@ -275,7 +275,7 @@
 }
 
 .calendario {
-  margin-top: -40px;
+  margin-top: -60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -399,7 +399,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .ceremonia,
@@ -413,7 +413,7 @@
 }
 
 .ceremonia img {
-  width: 70px;
+  width: 60px;
 }
 
 .ceremonia h3,
@@ -483,7 +483,7 @@
     rgba(240, 224, 158, 0.356)
   ) !important;
   border: 1px solid rgba(185, 125, 53, 0.8) !important;
-  width: 150px;
+  width: 140px;
   height: 40px;
   cursor: pointer;
   position: relative;
@@ -492,11 +492,15 @@
 }
 
 .fiesta img {
-  width: 80px;
+  width: 60px;
 }
 
 .fiesta {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.buton_confirmar_asistencia {
+  margin-top: -40px;
 }
 
 .buton_confirmar_asistencia img {
@@ -510,7 +514,7 @@
 .mensaje {
   width: 230px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 90px;
 }
 
